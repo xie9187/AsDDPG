@@ -44,14 +44,17 @@ python DDPG.py
 
 If you use this method in your research, please cite:
 
-	@inproceedings{xie2017Learning,
-  		title = "Learning with Training Wheels: Speeding up Training with a Simple Controller for Deep Reinforcement Learning",
-  		author = "Xie, Linhai and Wang, Sen and Rosa, Stefano and Markham, Andrew and Trigoni, Niki",
-  		year = "2018",
-  		booktitle = "Robotics and Automation (ICRA), 2017 IEEE/RSJ International Conference on",
-  		note = "accepted",
-  		organization = "IEEE",
-	}
+	@INPROCEEDINGS{8461203, 
+		author={L. Xie and S. Wang and S. Rosa and A. Markham and N. Trigoni}, 
+		booktitle={2018 IEEE International Conference on Robotics and Automation (ICRA)}, 
+		title={Learning with Training Wheels: Speeding up Training with a Simple Controller for Deep Reinforcement Learning}, 
+		year={2018}, 
+		volume={}, 
+		number={}, 
+		pages={6276-6283}, 
+		doi={10.1109/ICRA.2018.8461203}, 
+		ISSN={2577-087X}, 
+		month={May},}
 
 
 
