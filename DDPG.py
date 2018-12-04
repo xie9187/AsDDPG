@@ -13,7 +13,6 @@ from actor import ActorNetwork
 from critic import CriticNetwork
 
 import matplotlib.pyplot as plt
-import pylab as plt
 import matplotlib.colors as colors
 
 # ==========================
@@ -167,7 +166,7 @@ def train(sess, env, actor, critic, noise, reward, discrete, action_bound):
 	            a = env.PIDController(action_bound)
 	            ep_PID_count += 1.
 	            print("-----------PID Controller---------------")
-                
+
             # Set action for discrete and continuous action spaces
             action = a[0]
             if  action[0] <= 0.05:
